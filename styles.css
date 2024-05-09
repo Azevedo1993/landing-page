@@ -11,9 +11,14 @@ header {
     padding: 0;
 }
 
-.left-link {
+.left-links {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 100px;
+}
+
+.right-links {
+    padding-right: 100px;
 }
 
 
@@ -27,5 +32,7 @@ ul {
 }
 
 a {
-    text-decoration-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
