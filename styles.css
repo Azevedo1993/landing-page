@@ -36,3 +36,58 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: #f9faf8;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    flex-basis: 300px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+
+.hero-header div {
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.image {
+    width: 600px;
+    height: 250px;
+    margin-right: auto;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    align-items: center;
+}
