@@ -1,6 +1,12 @@
-header {
-    padding: 16px 32px;
-    background-color: #1F2937;
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-content {
@@ -9,6 +15,8 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+    padding: 16px 32px;
+    background-color: #1F2937;
 }
 
 .left-links {
@@ -37,20 +45,21 @@ a {
     color: #E5E7EB;
 }
 
-main {
+.main-header {
     background-color: #1F2937;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px;
     color: #f9faf8;
+    display: flex;
 }
 
 .hero-header {
+    flex-basis: 300px;
+    text-align: left;
+    margin-right: 60px;
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
-    flex-basis: 300px;
 }
 
 h1 {
@@ -81,11 +90,13 @@ button {
 .image {
     width: 600px;
     height: 250px;
-    margin-right: auto;
     background-color: grey;
-    display: flex;
-    align-items: center;
+}
+
+.image p {
+    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .content {
@@ -95,26 +106,87 @@ button {
 }
 
 .examples {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     }
 
 .examples img {
     width: 150px;
     height: 150px;
-    border: 4px solid;
-    border: blue;
+    border: 4px solid blue;
     margin: 5px 20px 0px 20px;
     padding: 15px;
-    
     }
 
 .examples p {
-    font-size: 10px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
 }
 
 .quotation {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 150px;
+   }
+
+.quotation p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotation b {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 15px 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-up-text
+.button-sign-up {
+    flex: 1;
+}
+
+.sign-up-text {
+    text-align: left;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 30px 0px 0px 40px;
+}
+
+.sign-up-text p {
+    color: #E5E7EB;
+    opacity: 0.8;
+    margin: 5px 30px 30px 40px;
+}
+
+.button-sign-up button {
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
 }
